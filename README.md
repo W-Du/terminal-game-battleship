@@ -1,7 +1,7 @@
 # Battleship Terminal Game
 
 ## About Battleship
-Battleship is a strategy type guessing game for two players. It is played on ruled grids on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player. Players alternate turns calling "shots" at the other player's ships, and the objective of the game is to destroy the opposing player's fleet. See [wiki] (https://en.wikipedia.org/wiki/Battleship_(game)) for more information. 
+Battleship is a strategy type guessing game for two players. It is played on ruled grids on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player. Players alternate turns calling "shots" at the other player's ships, and the objective of the game is to destroy the opposing player's fleet. See [wikipedia](https://en.wikipedia.org/wiki/Battleship_(game)) for more information. 
 
 ## Running the app
 ```
@@ -9,8 +9,9 @@ cd terminal-game-battleship  //path to the project folder
 python3 Game.py
 ```
 ## How do you play
-Playing this terminal game is very simple. Your terminal will be the second player (your enemy) and will secrelly place ships on the sea map. your job is to guess where they are strategically according the feedback after each attack. 
-  1. You will be asked to set a dimention of your sea map, from 5 to 50 (inclusive).
+Playing this terminal game is very simple. Your terminal will be the second player and will secrelly place ships on the sea map. 
+your job is to guess where they are strategically according the feedback after each attack. 
+  1. You will be asked to set a dimention of your sea map, from 5 to 50 inclusive.
      Mind that this will affect the number of ships and number of attacks. The larger your sea map, you longer you will probably play. 
   3. The number of ships and their location will be automatically set up for you.
      - Ships have various length, which is no less than 2 units and not more than half of the sea map length.
