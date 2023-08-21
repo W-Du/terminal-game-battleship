@@ -26,13 +26,14 @@ your job is to guess where they are strategically according the feedback after e
   5. You will enter into the terminal where you want to attack.
      - Horizontal axis is marked with alphabet, and vertical with number. 
      - Format of an attack location is '<alphabet><number>'. Samples: C1, A5, H8.
-     ![Screenshot of sea map after several attacks](/images/attacks.png)
+     <p align='left'><img src="/images/attacks.png" alt="Sceenshot of sea map after several attacks" width="240" display='block'/></p>
     
   6. After Each attack sea map will update in your terminal.
      - X: you hit a fleet! But carefully read the text, you might have hit a fleet which was already taken down. 
      - O: you missed.
   7. Hit all the fleets within the maximum number of attacks to win.
   8. At the end of the game, the sea map with all fleets marked will be revealed.
-     ![Screenshot of sea map at the end of the game](/images/over.png)
+     <p align='left'><img src="/images/over.png" alt="Sceenshot of sea map at the end of the game" width="240" display='block'/></p>
+
      
 
