@@ -12,7 +12,9 @@ python3 Game.py
 Playing this terminal game is very simple. Your terminal will be the second player and will secrelly place ships on the sea map. 
 your job is to guess where they are strategically according the feedback after each attack. 
   1. You will be asked to set a dimention of your sea map, from 5 to 50 inclusive.
-     Mind that this will affect the number of ships and number of attacks. The larger your sea map, you longer you will probably play. 
+     Mind that this will affect the number of ships and number of attacks. The larger your sea map, you longer you will probably play.
+     ![Screenshot of sea map at game start](/images/start.png)
+     
   3. The number of ships and their location will be automatically set up for you.
      - Ships have various length, which is no less than 2 units and not more than half of the sea map length.
      - Ships could be placed vertically or horizontally.
@@ -24,9 +26,13 @@ your job is to guess where they are strategically according the feedback after e
   5. You will enter into the terminal where you want to attack.
      - Horizontal axis is marked with alphabet, and vertical with number. 
      - Format of an attack location is '<alphabet><number>'. Samples: C1, A5, H8.
+     ![Screenshot of sea map after several attacks](/images/attacks.png)
+    
   6. After Each attack sea map will update in your terminal.
      - X: you hit a fleet! But carefully read the text, you might have hit a fleet which was already taken down. 
      - O: you missed.
   7. Hit all the fleets within the maximum number of attacks to win.
   8. At the end of the game, the sea map with all fleets marked will be revealed.
+     ![Screenshot of sea map at the end of the game](/images/over.png)
+     
 
