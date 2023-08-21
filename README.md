@@ -13,7 +13,7 @@ Playing this terminal game is very simple. Your terminal will be the second play
 your job is to guess where they are strategically according the feedback after each attack. 
   1. You will be asked to set a dimention of your sea map, from 5 to 50 inclusive.
      Mind that this will affect the number of ships and number of attacks. The larger your sea map, you longer you will probably play.
-     <img src="/images/start.png" alt="Sceenshot of sea map at game start" width="240" display='block'/>
+     <p align='left'><img src="/images/start.png" alt="Sceenshot of sea map at game start" width="240" display='block'/></p>
      
   3. The number of ships and their location will be automatically set up for you.
      - Ships have various length, which is no less than 2 units and not more than half of the sea map length.
